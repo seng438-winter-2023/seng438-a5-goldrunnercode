@@ -2,12 +2,13 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group \#: 29      |     |
+| -------------- | --- |
+| Student Names: |     |
+| Evan                |   
+| Abdullah            |   
+| Jack                |   
+| Max                 | 
 
 # Introduction
 We understand that reliability growth testing is important to track throughout a programs lifetime the reliability of the program so that you can determine when it meets the customers needs. It helps developers identify the root causes of failure in a system and by identifying these failures it can help them increase reliability. As Software Engineers we have to be thinking about the costs of unreliable software and we need to strive towards building software people can trust. 
@@ -30,13 +31,18 @@ This also could prove to be a disadvantage though, as we can't calculate specifi
 # 
 
 # Comparison of Results
+From the reliability growth testing we can gather that the MTTF is increasing so the failure rate is decreasing and thus the reliability of the system is growing over time. We were able to gather this by running both the geometric and Little Wood and Varal's Bayesian Reliability models. Then from the Reliability Demonstration Chart we now are looking at whether our dataset falls within our acceptable Consumer/Supplier risk rate and discrimination ratio. From our graphs we can see that the reliability of our system is also increasing and with an expected 1 failure per 5 hours we get within the acceptable range nearing the end of our results but we are outside of that acceptable rane but up till the end we are outside of our acceptable range. we can imply from this graph that the reliability also increased in this data set as well.
 
+From a comparison of the two graphs we can find that both show that the reliablity of the system is growing and thus the failure rate is decreasing and the MTTF is increasing. 
 # Discussion on Similarity and Differences of the Two Techniques
+The Similarities of the two systems is that both help developers determine whether their system is becoming more reliable, and thus helping them to identify key points of failure and fix them, both help developers then make a system more reliable and increase customer satisfaction. Both provide dynamic inputs that help you identify whether the reliabilty of your system is growing towards where you want it to be. They also both require a dataset of failures to be able to judge a systems reliability.
 
+The differences between the two teqhniques mainly are their inputs and outputs. The reliability growth test has different models that can help you to identify key attributes of the failure dataset such as the trend of your failure rate and MTTF over a given period. While the Reliability Demonstration chart takes in your dataset and your input parameters for Customer/Developer risk and discrimination ratio to show you a trend of whether the reliability of your system is falling within an acceptable range for both the Consumer and Supplier.
 # How the team work/effort was divided and managed
 We split into groups of 2 and worked on parts 1 and 2 simultaneously, and then compared our results as well as the advantages and disadvantages we faced using our respective methods. 
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
-
+Our largest difficulty was that the dataset provided for this lab did not work and we had to spend a considerable amount of time to figure out what worked and what didn't trying multiple programs from STRTAT to CASRE to everything reccommended before finally getting something to work on CASRE and transfering it over to work on STRTAT, but that was very frustrating as CASRE was designed when computer monitors were very small pixel sizes so the program would show up really small. This challenge taught me that software testing on a team where the half of the team that gives you the dataset gives you a faulty dataset and you have to figure out for yourself how to combat these challenges. This lab was a really good learning activity for resilience.
 # Comments/feedback on the lab itself
+I would fix this lab for future semesters as the datasets did not work and it was supposed to be directed more towards learning about reliability testing rather than fixing corrupted or improperly made files.
