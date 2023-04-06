@@ -34,7 +34,7 @@ This also could prove to be a disadvantage though, as we can't calculate specifi
 # Discussion on Similarity and Differences of the Two Techniques
 
 # How the team work/effort was divided and managed
-
+We split into groups of 2 and worked on parts 1 and 2 simultaneously, and then compared our results as well as the advantages and disadvantages we faced using our respective methods. 
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
